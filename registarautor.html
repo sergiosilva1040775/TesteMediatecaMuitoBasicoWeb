@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Palavras Levam nas o vento - Merdiateca</title>
+        <link href = "recursos/style/style.css" rel ="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Palavras Levam nas o vento - Merdiateca</h1>
+        <h1>Inserção de autores</h1>
+        <!-- o metodo post envia os dados de uma página para a outra de forma escondida
+            o metodo get envia os dados para a página seguinte pela barra de endereço-->
+        <form action="registarautor.php" method="post">
+            <p>Nome:<input type="text" name="nome" size="100" maxlength="100" required></p>
+            <p>Nacionaliade:<input type="text" name="nacionalidade" size="50" maxlength="50" required></p>       
+
+            <input type="submit" value="Inserir">
+            <input type="reset" value="limpar">
+            <br><br>
+            <a href="index.html" target="_self">Voltar ao menu</a>
+        </form>
+
+    </body>
+</html>
